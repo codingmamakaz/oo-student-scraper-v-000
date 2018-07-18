@@ -22,6 +22,7 @@ class Student
 
   def add_student_attributes(attributes_hash)
     binding.pry
+    bio = attributes_hash[:bio]
   end
 
   def self.all
